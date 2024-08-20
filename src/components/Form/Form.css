@@ -1,0 +1,77 @@
+.form {
+  max-height: 100%;
+  width: 400px;
+  flex-direction: column;
+  gap: 25px;
+  background-color: var(--form-first-bg);
+  border-radius: var(--form-br);
+  padding: var(--form-padding-m);
+}
+
+.form div {
+  margin-bottom: var(--form-margin-xs);
+}
+
+.form > div > h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color: var(--form-primary-text);
+}
+
+.form > div > p {
+  text-align: center;
+  color: var(--form-primary-text);
+  font-size: 13px;
+  font-weight: 100;
+  width: 280px;
+  margin-top: var(--form-margin-xs);
+}
+
+.input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0.5px solid var(--form-color5);
+  padding: 0 var(--form-padding-s);
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}
+
+.form button {
+  width: 200px;
+  height: 50px;
+  margin-top: var(--form-margin-xs);
+  border-radius: 10px;
+  border: none;
+  color: var(--form-tertiary-text);
+  background-color: var(--form-second-bg);
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: var(--form-forth-bg);
+}
+
+.form button:active {
+  transform: scale(0.98);
+}
+
+.error {
+  font-size: 13px;
+  color: var(--form-quaternary-text);
+  text-align: center;
+  font-weight: 400;
+}
+
+.input-error {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1.5px solid var(--form-quaternary-text);
+  padding: 0 var(--form-padding-s);
+  font-size: 12px;
+  letter-spacing: 1.5px;
+}

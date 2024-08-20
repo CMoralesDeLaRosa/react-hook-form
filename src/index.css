@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+#root {
+  height: 100svh;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+:root {
+  /*FONT-FAMILY*/
+  font-family: 'Jost', sans-serif;
+  font-optical-sizing: auto;
+  /*BRANDING-COLORS*/
+  --form-color1: #f6fbf9;
+  --form-color2: #84c7ae;
+  --form-color3: #ffffff;
+  --form-color4: #212b27;
+  --form-color5: #888888;
+  --form-color6: #568d79;
+  --form-color7: #bd351d;
+
+  /*BACKGROUND COLORS*/
+  --form-first-bg: var(--form-color1);
+  --form-second-bg: var(--form-color2);
+  --form-third-bg: var(--form-color3);
+  --form-forth-bg: var(--form-color6);
+
+  /*TEXT COLORS*/
+  --form-primary-text: var(--form-color4);
+  --form-secondary-text: var(--form-color5);
+  --form-tertiary-text: var(--form-color3);
+  --form-quaternary-text: var(--form-color7);
+
+  /*BORDER RADIUS*/
+  --form-br: 20px;
+
+  /*SPACING*/
+  --form-margin-xs: 10px;
+  --form-margin-s: 20px;
+  --form-margin-m: 30px;
+  --form-margin-l: 40px;
+  --form-margin-xl: 50px;
+  --form-margin-section: 100px;
+
+  --form-padding-xs: 10px;
+  --form-padding-s: 20px;
+  --form-padding-m: 30px;
+  --form-padding-l: 40px;
+  --form-padding-xl: 50px;
+  --form-padding-section: 100px;
+}
+
+/*FLEX CONTAINER*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
